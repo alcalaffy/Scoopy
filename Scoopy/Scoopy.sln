@@ -5,6 +5,12 @@ VisualStudioVersion = 17.14.36127.28 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoopy.API", "Scoopy.API\Scoopy.API.csproj", "{5A799C6F-8B30-4649-995A-85F48735D182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoopy.Application", "Scoopy.Application\Scoopy.Application.csproj", "{B9EAD73F-012F-4A43-8EDA-33AD383DADD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoopy.Domain", "Scoopy.Domain\Scoopy.Domain.csproj", "{07A57F53-06EF-4B5B-BC32-D03AFC1D1D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoopy.Infrastructure", "Scoopy.Infrastructure\Scoopy.Infrastructure.csproj", "{C07E5108-B536-47AA-9A25-A2F3CDFBB0EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{5A799C6F-8B30-4649-995A-85F48735D182}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A799C6F-8B30-4649-995A-85F48735D182}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A799C6F-8B30-4649-995A-85F48735D182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EAD73F-012F-4A43-8EDA-33AD383DADD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EAD73F-012F-4A43-8EDA-33AD383DADD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EAD73F-012F-4A43-8EDA-33AD383DADD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EAD73F-012F-4A43-8EDA-33AD383DADD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A57F53-06EF-4B5B-BC32-D03AFC1D1D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A57F53-06EF-4B5B-BC32-D03AFC1D1D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A57F53-06EF-4B5B-BC32-D03AFC1D1D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A57F53-06EF-4B5B-BC32-D03AFC1D1D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07E5108-B536-47AA-9A25-A2F3CDFBB0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07E5108-B536-47AA-9A25-A2F3CDFBB0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07E5108-B536-47AA-9A25-A2F3CDFBB0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07E5108-B536-47AA-9A25-A2F3CDFBB0EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
